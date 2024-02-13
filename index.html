@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Balachandar's Portfolio</title>
+  <link rel="icon" href="./images/portFoliologo.jpg">
+  <link rel="stylesheet" href="./Style.css">
+  <script src="https://kit.fontawesome.com/6533591904.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+     <div class="container">
+      <nav>
+        <img src="./images/balachandarlogo (2).png" alt="logo" loading="lazy" class="logo">
+        <ul id="sidemenu">
+          <li> <a href="#header">Home</a></li>
+          <li> <a href="#about">About</a></li>
+          <li> <a href="#services">Services</a></li>
+          <li> <a href="#portfolio">Portfolio</a></li>
+          <li> <a href="#contact">Contact</a></li>
+          <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>Front-End Developer</p>
+        <h1>Hi, I'm <span class="suvi">Balachandar</span><br>From India</h1>
+      </div>
+    </div> 
+    </div>
+    <!------------------about---------------------------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img class="aboutmeimg" src="./images/aboutme.JPG" alt="user" title="balachandar" loading="lazy">
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <br>
+            <p>Hello, I'm Balachandar, a dedicated front-end developer committed to constant improvement. Eager to apply my skills and innovate, I'm seeking dynamic career opportunities for growth and contribution in the tech industry.</p>
+            <div class="tab-title">
+              
+              <p class="tab-links active-link" onclick="opentab('Education')">Education</p>
+              <p class="tab-links" onclick="opentab('Skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('Soft Skills')">Soft Skills</p>
+              <p class="tab-links" onclick="opentab('Achivements')">Achievements</p>
+              <p class="tab-links" onclick="opentab('Hobbies')">Hobbies</p>
+              
+            </div>
+            <div class="tab-contents active-tab" id="Education">
+              <ul>
+                <li><span>2022-2024</span><br>MCA from Kongu Engineering College</li>
+                <li><span>2018-2021</span><br>B.Sc(Computer Technology) from Dr.SNS Rajalakshmi College of Arts and Science</li>
+                <li><span>2017-2018</span><br>HSC from Little Flower Matriculation Higher Secondary School</li>
+                <li><span>2015-2016</span><br>SSLC from Amma Matriculation School</li>
+                
+                
+              </ul>
+            </div>
+            <div class="tab-contents" id="Skills">
+              <ul>
+                <li><span>Core JAVA</span></li>
+                <li><span>HTML</span></li>
+                <li><span>CSS</span></li>
+                <li><span>JavaScript</span></li>
+                <li><span>Basic ReactJs</span></li>
+                <li><span>Git</span></li>
+                
+              </ul>
+            </div>
+            <div class="tab-contents" id="Soft Skills">
+              <ul>
+                <li><span>Project Management</span></li>
+                <li><span>Creative Thinking</span></li>
+                <li><span>Leadership</span></li>
+                
+              </ul>
+            </div>
+           
+            <div class="tab-contents" id="Achivements">
+              <ul>
+                <li><span>Quiz</span><br>Secured 1st place in SWARM'20 quiz competition held in Dr.SNS Rajalakshmi College of Arts and Science </li>
+                <li><span>Debugging</span><br>Secured 2nd place in MINI-ORION Debugging competition held in Kongu Engineering College</li>
+                <li><span>Ideathon</span><br>💡First-place winner in department-level IDEATHON competition (Phase 1 and Phase 2), highlighting innovative
+                  problem-solving and teamwork.<br>💡Selected for prestigious Ahmedabad Ideathon 2022, showcasing the ability to tackle real-world challenges with
+                  creative solutions.<br>💡Recognized as one of the top 10 teams in Young Indians (Yi) IDS 2.0, demonstrating excellence and ingenuity
+                  in the project.</li>
+                <li><span>Sports</span><br>Represented Tamilnadu ThrowBall Team and secured 4th place in national level throw ball competition match was held at Chhattisgarh.</li>
+                <li><span>Red Cross</span><br>Secured overall 1st place in junior Red Cross district level training program</li>
+                
+                
+              </ul>
+            </div>
+            <div class="tab-contents" id="Hobbies">
+              <ul>
+                <li><span>Reading Books</span></li>
+                <li><span>Cycling</span></li>
+                <li><span>Listening NEWS</span></li>
+                <li><span>Travelling</span></li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-----------service--------->
+<div id="services">
+  <div class="container">
+    <h1 class="sub-title">My Services</h1>
+    <div class="services-list">
+      <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>Front End Development</h2>
+        <p>I have expertise in HTML, CSS, JavaScript and ReactJS for front-end development. I've built several websites utilizing these technologies.</p>
+        <a href="https://github.com/balachandart">Learn More</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-list-check"></i>
+        <h2>Problem Solving</h2>
+        <p>Utilizing CodeChef for honing problem-solving abilities, adept at analyzing challenges and implementing creative solutions through critical thinking.</p>
+        <a href="https://www.codechef.com/users/balachandart17">Learn More</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-person-chalkboard"></i>
+        <h2>Project Management</h2>
+        <p>I understand the principles of SDLC and methodologies such as Agile, Waterfall, Spiral, and V-models. I am capable of managing projects comprehensively.</p>
+        <a href="https://www.virtasant.com/blog/sdlc-methodologies">Learn More</a>
+      </div>
+
+
+    </div>
+  </div>
+</div>
+<!----------------Portfolio------------------->
+<div id="portfolio">
+  <div class="container">
+  <h1 class="sub-title">My Work</h1>
+  <div class="worklist">
+    <div class="work">
+      <img src="./images/work-1.png" alt="work1">
+      <div class="layer">
+        <h3>QR Code Generator</h3>
+      <p>A QR code generator application with API integration offers users an intuitive interface to create customizable QR codes for diverse data formats, facilitating seamless sharing and efficient communication.</p>
+        <a href="https://balachandart.github.io/QR-Code-Generator/"><i class="fa-solid fa-up-right-from-square"></i></a>
+      </div>
+
+    </div>
+    <div class="work">
+      <img src="./images/work-2.png" alt="work1">
+      <div class="layer">
+        <h3>Snake Game Application</h3>
+        <p>This minimalist Snake game, built with HTML, CSS, and JavaScript, tasks players with guiding a growing snake to eat food while avoiding collisions. With simple controls and retro charm, it offers addictive challenges and nostalgic arcade fun.</p>
+        <a href="https://balachandart.github.io/Snake-Game/"><i class="fa-solid fa-up-right-from-square"></i></a>
+      </div>
+
+    </div>
+    <div class="work">
+      <img src="./images/work-3.png" alt="work1">
+      <div class="layer">
+        <h3>Weather Application 🛰️</h3>
+        <p>Weather application: Utilizes OpenWeather API for data. Provides detailed information including temperature, humidity, wind speed, and more for entered city. Displays "Invalid city" for incorrect entries.</p>
+        <a href="https://balachandart.github.io/Weather-App/"><i class="fa-solid fa-up-right-from-square"></i></a>
+      </div>
+
+    </div>
+  </div>
+  <a href="https://github.com/balachandart?tab=repositories" class="btn">See More</a>
+</div> </div>
+<!---------------------------contact------------------------>
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-envelope" style="color: #ff004f;"></i>balachandru1728@gmail.com</p>
+        <p><i class="fa-solid fa-phone" style="color: #ff004f;"></i>6382632976</p>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/authwall?trk=gf&trkInfo=AQHlHZSyh86iAQAAAY1y1H3oY0z-GEoI1uCYxEnaiTiF9uo2jMggno7ANh0FMO08hvx0tgtoHZZ0K2knfmd9K_GDqQRFJG9qVat9w3vb4o3lBuV_Mp0ed45GVt2iWAPp6XwNh1o=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fbalachandar-t-42b068255%3Futm_source%3Dshare%26utm_campaign%3Dshare_via%26utm_content%3Dprofile%26utm_medium%3Dandroid_app"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/chandruut.17?utm_source=qr&igsh=MXVyYmVvOTFpMjh6Yg=="><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://x.com/balachandarT17?t=vlNE_LkI5CYB2LQA1bisNg&s=09"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="https://github.com/balachandart"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <a href="./images/Balachandar MCA.pdf" download class="btn btn2">Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form name="portfolio-contact-form">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="E-Mail" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message💭" required></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msd"></span>
+        
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>Copyright &copy; 2024 Made by Balachandar.</p>
+    <br>
+    <p>THANKS FOR VISITING &nbsp;<i class="heart fa-solid fa-heart"></i></p>
+  </div>
+</div>
+    <script>
+const tablinks=document.getElementsByClassName("tab-links")
+const tabcontents=document.getElementsByClassName("tab-contents")
+function opentab(tabname){
+  for(tablink of tablinks){
+    tablink.classList.remove("active-link")
+  }
+  for(tabcontent of tabcontents){
+    tabcontent.classList.remove("active-tab")
+  }
+  event.currentTarget.classList.add("active-link")
+  document.getElementById(tabname).classList.add("active-tab")
+
+}
+
+    </script>
+    <script>
+
+      const sidemenu=document.getElementById("sidemenu")
+      function openmenu(){
+        sidemenu.style.right="0px";
+      }
+      function closemenu(){
+        sidemenu.style.right="-200px"
+      }
+    </script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbw4Q7WKe4S7O_glL0lzpilwBLlS8L45otnxnysEuqXjLxb4gl8nQz_ZUXm8dBpxfb9U/exec'
+  const form = document.forms['portfolio-contact-form']
+  const msd= document.getElementById('msd')
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => { msd.innerHTML="Message Sent Successfully"
+    setTimeout(function(){
+        msd.innerHTML=" "
+
+    },2000)
+      form.reset(); })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
